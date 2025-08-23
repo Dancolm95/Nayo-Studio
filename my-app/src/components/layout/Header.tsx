@@ -1,13 +1,13 @@
 'use client'
 import Image from 'next/image'
 import { useState } from 'react'
-import logoPrincipal from '@/assets/brand/logoPrincipal.png'
+import logoPrincipal from '@/assets/brand/logoSinFondo.png'
 
 export function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="bg-yellow-400 text-black shadow-sm">
+    <header className="bg-white text-black shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#hero" className="flex items-center gap-2">
@@ -15,7 +15,7 @@ export function Header() {
             src={logoPrincipal}
             alt="Nayo Studio"
             width={120}
-            height={32}
+            height={30}
             className="h-auto w-auto"
             priority
           />
@@ -23,12 +23,10 @@ export function Header() {
 
         {/* Nav desktop */}
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#servicios" className="text-white hover:text-gray-700 transition-colors">Servicios</a>
-          <a href="#nuestro-metodo" className="text-white hover:text-gray-700 transition-colors">Nuestro método</a>
-          <a href="#portfolio" className="text-white hover:text-gray-700 transition-colors">Portafolio</a>
-          <a href="#contacto" className="px-4 py-2 text-white hover:bg-black hover:text-white transition-colors rounded">
-            Descargar portafolio
-          </a>
+          <a href="#servicios" className="text-gray-500 hover:text-gray-700 transition-colors">Servicios</a>
+          <a href="#nuestro-metodo" className="text-gray-500 hover:text-gray-700 transition-colors">Nuestro método</a>
+          <a href="#portfolio" className="text-gray-500 hover:text-gray-700 transition-colors">Portafolio</a>
+ 
           <a
             href="https://wa.me/51929520692?text=¡Hola! Quiero agendar una cita con Nayo Studio."
             target="_blank"
@@ -55,7 +53,7 @@ export function Header() {
 
       {/* Panel mobile */}
       {open && (
-        <div className="md:hidden border-t border-black/10">
+        <div className="md:hidden border-t border-gray-200 bg-white">
           <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-3">
             <a href="#servicios" onClick={() => setOpen(false)} className="text-black hover:text-gray-700 transition-colors">Servicios</a>
             <a href="#nuestro-metodo" onClick={() => setOpen(false)} className="text-black hover:text-gray-700 transition-colors">Nuestro método</a>

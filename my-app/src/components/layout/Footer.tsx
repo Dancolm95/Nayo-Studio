@@ -1,10 +1,10 @@
 // src/components/layout/Footer.tsx
 import Image from 'next/image'
-import logoBlackOnYellow from '@/assets/brand/logoPrincipal.png' // tu logo principal
+import logoBlackOnYellow from '@/assets/brand/logoSinFondo.png' // tu logo principal
 
 export function Footer() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-white text-gray-500">
       <div className="max-w-screen-lg mx-auto px-4 py-12 grid gap-8 md:grid-cols-3">
         {/* Columna 1: Marca */}
         <div className="space-y-4">
@@ -18,9 +18,6 @@ export function Footer() {
               priority
             />
           </a>
-          <p className="text-small opacity-80 max-w-xs">
-            Creamos contenido y campañas que hacen crecer tu marca mientras tú te enfocas en el negocio.
-          </p>
         </div>
 
         {/* Columna 2: Navegación */}
@@ -42,7 +39,7 @@ export function Footer() {
               <a
                 href="https://wa.me/51929520692?text=¡Hola! Quiero agendar una cita con Nayo Studio."
                 target="_blank"
-                className="btn btn-primary bg-brand text-white hover:bg-brand/90"
+                className="btn btn-primary bg-brand  hover:bg-brand/90"
               >
                 WhatsApp
               </a>
@@ -50,11 +47,6 @@ export function Footer() {
             <li>
               <a href="mailto:hola.nayostudio@gmail.com" className="link">
                 hola.nayostudio@gmail.com
-              </a>
-            </li>
-            <li>
-              <a href="/brochure-nayo-2025.pdf" download className="btn btn-primary text-white hover:bg-white/90">
-                Descargar Brochure
               </a>
             </li>
           </ul>
