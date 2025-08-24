@@ -23,9 +23,10 @@ export function Header() {
 
         {/* Nav desktop */}
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#servicios" className="text-gray-500 hover:text-gray-700 transition-colors">Servicios</a>
-          <a href="#nuestro-metodo" className="text-gray-500 hover:text-gray-700 transition-colors">Nuestro método</a>
-          <a href="#portfolio" className="text-gray-500 hover:text-gray-700 transition-colors">Portafolio</a>
+          <a href="#servicios" className="text-gray-500 hover:text-black transition-colors">Servicios</a>
+          <a href="#nuestro-metodo" className="text-gray-500 hover:text-black transition-colors">Nuestro método</a>
+          <a href="#clientes" className="text-gray-500 hover:text-black transition-colors">Clientes</a>
+          <a href="#portfolio" className="text-gray-500 hover:text-black transition-colors">Portafolio</a>
  
           <a
             href="https://wa.me/51929520692?text=¡Hola! Quiero agendar una cita con Nayo Studio."

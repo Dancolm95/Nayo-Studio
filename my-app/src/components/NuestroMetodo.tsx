@@ -127,7 +127,7 @@ export default function NuestroMetodo() {
 
         {/* CTA para el método */}
         <div className="text-center">
-          <div className="bg-black text-white rounded-2xl p-8 shadow-2xl max-w-2xl mx-auto">
+          <div className="bg-white text-black rounded-2xl p-8 shadow-2xl max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">
               ¿Quieres conocer nuestro método en acción?
             </h3>
@@ -137,7 +137,7 @@ export default function NuestroMetodo() {
             <a 
               href="https://wa.me/51929520692?text=¡Hola! Quiero conocer el método de trabajo de Nayo Studio."
               target="_blank"
-              className="inline-flex items-center px-8 py-4 text-white rounded-full font-bold text-lg hover:bg-yellow-300 transition-colors shadow-lg hover:shadow-xl"
+              className="inline-flex items-center px-8 py-4 text-black border-gray-100 border rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:text-white hover:bg-black transition-all duration-300 transform hover:scale-105"
             >
               🚀 Iniciar Proyecto
             </a>

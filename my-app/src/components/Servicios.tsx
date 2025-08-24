@@ -114,7 +114,7 @@ export default function Servicios() {
             <a 
               href="https://wa.me/51929520692?text=¡Hola! Quiero consultar sobre los servicios de Nayo Studio."
               target="_blank"
-              className="inline-flex items-center px-8 py-4 bg-yellow-400 text-black rounded-full font-bold text-lg hover:bg-yellow-300 transition-colors shadow-lg hover:shadow-xl"
+              className="inline-flex items-center px-8 py-4 text-black border-gray-100 border rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:text-white hover:bg-black transition-all duration-300 transform hover:scale-105"
             >
               💬 Consultar Servicios
             </a>

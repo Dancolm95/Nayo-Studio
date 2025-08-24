@@ -27,6 +27,7 @@ export function Footer() {
             <li><a href="#servicios" className="link">Servicios</a></li>
             <li><a href="#nuestro-metodo" className="link">Nuestro método</a></li>
             <li><a href="#portfolio" className="link">Portafolio</a></li>
+            <li><a href="#clientes" className="link">Clientes</a></li>
             <li><a href="#contacto" className="link">Contacto</a></li>
           </ul>
         </nav>

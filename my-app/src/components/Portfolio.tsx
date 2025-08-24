@@ -123,7 +123,7 @@ export default function Portfolio() {
           <a 
             href="/assets/Brochure_Nayo_2025.pdf" 
             download
-            className="inline-flex items-center px-6 py-3 bg-black text-white rounded-full font-semibold hover:bg-gray-800 transition-colors"
+            className="inline-flex items-center px-8 py-4 text-black border-gray-100 border rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:text-white hover:bg-black transition-all duration-300 transform hover:scale-105"
           >
             📥 Descargar Portafolio Completo
           </a>

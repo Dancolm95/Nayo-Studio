@@ -93,7 +93,7 @@ export default function Brochure() {
             <a 
               href="/assets/Brochure_Nayo_2025.pdf" 
               download
-              className="inline-flex items-center px-8 py-4 bg-white text-gray-500 rounded-full font-bold text-lg hover:bg-yellow-300 transition-colors shadow-lg hover:shadow-xl"
+              className="inline-flex items-center px-8 py-4 text-black border-gray-100 border rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:text-white hover:bg-black transition-all duration-300 transform hover:scale-105"
             >
               📥 Brochure
             </a>
