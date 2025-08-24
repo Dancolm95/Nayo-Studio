@@ -3,6 +3,9 @@ import Servicios from '@/components/Servicios';
 import NuestroMetodo from '@/components/NuestroMetodo';
 import ContactForm from '@/components/ContactForm';
 import React from 'react';
+import Portfolio from '@/components/Portfolio';
+import Clientes from '@/components/Clientes';
+import Brochure from '@/components/Brochure';
 
 export default function HomePage() {
   return (
@@ -10,7 +13,9 @@ export default function HomePage() {
       <Hero />
       <Servicios />
       <NuestroMetodo />
-      <ContactForm />
+      <Portfolio/>
+      <Clientes/>
+      <Brochure/>
     </div>
   );
 }
