@@ -13,9 +13,9 @@ export default function HomePage() {
       <Hero />
       <Servicios />
       <NuestroMetodo />
-      <Portfolio/>
-      <Clientes/>
-      <Brochure/>
+      <Portfolio />
+      <Clientes />
+      <Brochure />
     </div>
   );
 }
